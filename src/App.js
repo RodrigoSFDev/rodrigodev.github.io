@@ -1,11 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './App.css';
+import  Perfil  from './pages/Perfil';
+import Projeto from './pages/Projeto';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        App
-      </div>
+      <main className="main">
+      <Perfil />
+      <Projeto />
+      </main>
     )
   }
 }
