@@ -5,14 +5,22 @@ function Perfil() {
   return (
     <section className="perfil" id="perfil">
       <p>Oi, sou</p>
-      <h1>Rodrigo Ferreira,</h1>
-      <p>Desenvolvedor web</p>
+      <section className="animation" >
+        <div className="first">
+
+          <h1>Rodrigo Ferreira</h1>
+        </div>
+        <div className="second">
+
+          <p>Desenvolvedor web</p>
+        </div>
+      </section>
       <section className="perfil-info">
         <section className="info-p">
           <p>Sou um programador iniciante
           apaixonado por resolver problemas e
           criar soluções criativas através do
-          código. Desde que descobri a magia da programação,
+          código. Desde que descobri a programação,
           tenho me dedicado intensamente a mergulhar
           nesse universo fascinante.</p>
         </section>
